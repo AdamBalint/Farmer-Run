@@ -1,0 +1,51 @@
+﻿Build started 2016.02.02. 10:00:40.
+     1>Project "C:\Users\Adam\Documents\University\Year 4\COSC 3P98\Project Upload\Project\Windows\Template-3P98-2013\Template-3P98-2013\Template-3P98-2013.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         copy "C:\Users\Adam\Documents\University\Year 4\COSC 3P98\Project Upload\Project\Windows\Template-3P98-2013\Template-3P98-2013\GL\freeglut.dll" "C:\Users\Adam\Documents\University\Year 4\COSC 3P98\Project Upload\Project\Windows\Template-3P98-2013\Debug\"
+         copy "C:\Users\Adam\Documents\University\Year 4\COSC 3P98\Project Upload\Project\Windows\Template-3P98-2013\Template-3P98-2013\FreeImage\freeimaged.dll" "C:\Users\Adam\Documents\University\Year 4\COSC 3P98\Project Upload\Project\Windows\Template-3P98-2013\Debug\"
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IGL /IFreeImage /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Entity.cpp Material.cpp Model.cpp ModelLoader.cpp Player.cpp Source.cpp
+         Source.cpp
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(142): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(143): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(145): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(154): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(175): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(176): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(177): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(192): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(193): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(194): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(209): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(210): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(211): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(259): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\source.cpp(429): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Player.cpp
+         ModelLoader.cpp
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\modelloader.cpp(95): warning C4018: '<' : signed/unsigned mismatch
+         Model.cpp
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\model.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\model.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\model.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\model.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\adam\documents\university\year 4\cosc 3p98\project upload\project\windows\template-3p98-2013\template-3p98-2013\model.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+         Material.cpp
+         Entity.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Adam\Documents\University\Year 4\COSC 3P98\Project Upload\Project\Windows\Template-3P98-2013\Debug\Template-3P98-2013.exe" /INCREMENTAL /NOLOGO /LIBPATH:GL /LIBPATH:FreeImage opengl32.lib freeglut.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Adam\Documents\University\Year 4\COSC 3P98\Project Upload\Project\Windows\Template-3P98-2013\Debug\Template-3P98-2013.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Adam\Documents\University\Year 4\COSC 3P98\Project Upload\Project\Windows\Template-3P98-2013\Debug\Template-3P98-2013.lib" /MACHINE:X86 Debug\Entity.obj
+         Debug\Material.obj
+         Debug\Model.obj
+         Debug\ModelLoader.obj
+         Debug\Player.obj
+         Debug\Source.obj
+         Template-3P98-2013.vcxproj -> C:\Users\Adam\Documents\University\Year 4\COSC 3P98\Project Upload\Project\Windows\Template-3P98-2013\Debug\Template-3P98-2013.exe
+     1>Done Building Project "C:\Users\Adam\Documents\University\Year 4\COSC 3P98\Project Upload\Project\Windows\Template-3P98-2013\Template-3P98-2013\Template-3P98-2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.27
